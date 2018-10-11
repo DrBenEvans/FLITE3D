@@ -1,0 +1,9 @@
+#PBS -N config13_prepro
+#PBS -q cpu1
+#PBS -l nodes=1
+#PBS -l walltime=24:00:00
+#PBS -l mem=7gb
+#PBS -m bea
+cd /eng/bloodhound1/egevansbj/FULLCAR/config13/geom/
+/eng/cvcluster/egevansbj/codes/prepro/uns/Gen3d < rungen.inp > output
+
